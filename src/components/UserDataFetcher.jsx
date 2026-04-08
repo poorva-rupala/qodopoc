@@ -51,6 +51,8 @@ function UserDataFetcher() {
     setUser({ name: '', email: '', company: { name: '' } })
     setPosts([])
     setSelectedPost(null)
+
+    
     
     // ISSUE 2: No loading state to show user the refresh is happening
     fetch('https://jsonplaceholder.typicode.com/users/1')
